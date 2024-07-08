@@ -111,8 +111,32 @@
         android:layout_width="359dp"
         android:layout_height="60dp"
         android:layout_marginStart="19dp"
-        android:layout_marginTop="330sp"
+        android:layout_marginTop="305sp"
         android:background="#E4E2E2">
+
+        <TextView
+            android:id="@+id/rvRent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80sp"
+            android:layout_marginTop="10sp"
+            android:text="RENT" />
+
+        <TextView
+            android:id="@+id/tvRentBalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80sp"
+            android:layout_marginTop="30sp"
+            android:text="Ksh 16,000" />
+
+        <TextView
+            android:id="@+id/rvDate2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="260sp"
+            android:layout_marginTop="30sp"
+            android:text="2nd July 2024" />
 
     </FrameLayout>
 
@@ -158,10 +182,35 @@
         app:srcCompat="@drawable/income_trx" />
 
     <FrameLayout
-        android:id="@+id/tvFrame3"
+        android:id="@+id/tvFrame4"
         android:layout_width="435dp"
-        android:layout_height="189dp">
+        android:layout_height="189dp"
+        >
 
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/tvRent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="314dp"
+        app:srcCompat="@drawable/expense_trx" />
+
+    <FrameLayout
+        android:id="@+id/tvFrame5"
+        android:layout_width="360dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="375sp"
+        android:background="#E4E2E2">
+
+        <ImageView
+            android:id="@+id/tvDividents"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/income_trx" />
     </FrameLayout>
 
 </com.google.android.material.card.MaterialCardView>
